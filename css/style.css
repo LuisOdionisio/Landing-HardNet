@@ -106,14 +106,30 @@ button {
 
 }
 
+/*Estilo aba Serviços*/
+
+
+#servicos h1  {
+    text-transform:uppercase;
+    
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  li {
+    display: grid;  }
+  
 .sistemas {
-    background-color: #f5f5f5;
+    
     border: 1px solid #c02121;
     padding: 20px;
     border-radius: 100px;
-    box-shadow: 0 2px 4px rgba(41, 33, 33, 0.1);
     text-align: center;
-    
+
   }
 
   .sistemas h1 {
