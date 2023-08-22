@@ -76,19 +76,37 @@ nav a:hover {
 
 #tema {
     position: absolute;
-    top: 50%;
+    margin-left: 135px;
+    top: 20%;
     left: 50px; /* Posiciona no canto esquerdo com margem de 50px */
     transform: translateY(-50%);
     width: calc(100% - 50px); /* Leva em consideração a margem esquerda */
     display: flex;
-    justify-content: center;  
-    align-items: center;
+    justify-content: flex-start;  
+    align-items: flex-start;
     flex-direction: column;
     color: white;
+    
 }
 
-.text{
-    margin-left: 0;
+#tema h1 {
+    line-height: 8px ;
+    font-weight: bolder ;
 }
+
+button {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00A854;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+
+  
 
 
