@@ -56,16 +56,38 @@ nav a:hover {
     position: relative;
 }
 
-.tema {
+#tema {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: relative;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
+
+.text h1 {
+    text-transform: uppercase;
+    margin-left: 190px;
+    line-height: 10px;
+    font-family: monospace;
+}
+
+.text p {
+    font-size: small;
+    margin-left: 190px;
+}
+
+button  {
+    padding: 5px;
+    margin-left: 190px;
+    background-color: #2feb2f;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
