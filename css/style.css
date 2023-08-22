@@ -5,6 +5,8 @@ body {
     padding: 0;
 }
 
+
+
 #navigation {
     display: flex;
     align-items: center;
@@ -12,7 +14,7 @@ body {
     padding: 20px 50px;
     gap: 350px;
  /*   background-color: #f2f2f2; */
-    background-color: #ccc;
+    background-color: white;
 }
 
 #navigation img {
@@ -42,14 +44,16 @@ nav a:hover {
     padding: 40px;
     background-color: #f9f9f9;
     text-align: center;
+    position: relative;
 }
+
 
 #hero img {
     transform: rotate(180deg);
-    filter: blur(3px);
+    filter: blur(5px);
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 550px;
 }
 
 #hero {
@@ -64,30 +68,7 @@ nav a:hover {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: relative;
-    flex-direction: column;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
-
-.text h1 {
-    text-transform: uppercase;
-    margin-left: 190px;
-    line-height: 10px;
-    font-family: monospace;
-}
-
-.text p {
-    font-size: small;
-    margin-left: 190px;
-}
-
-button  {
-    padding: 5px;
-    margin-left: 190px;
-    background-color: #2feb2f;
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
