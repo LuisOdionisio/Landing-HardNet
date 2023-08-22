@@ -43,3 +43,9 @@ nav a:hover {
     text-align: center;
 }
 
+#hero img {
+    transform: rotate(180deg);
+    filter: blur(3px);
+    width: 100%;
+
+}
