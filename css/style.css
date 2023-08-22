@@ -106,7 +106,36 @@ button {
 
 }
 
+.sistemas {
+    background-color: #f5f5f5;
+    border: 1px solid #c02121;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(41, 33, 33, 0.1);
+    text-align: center;
+    
+  }
 
-  
+  .sistemas h1 {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+  }
 
+  .sistemas p {
+    font-size: 10px;
+    color: #666;
+  }
+
+  .sistemas ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .sistemas ul li {
+    font-size: 10px;
+    color: #888;
+    padding: 5px 0;
+  }
 
